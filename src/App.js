@@ -1,13 +1,19 @@
 import './App.css';
-import Restaurants from './components/basics/Restaurants';
-import UseState from './components/Hooks/UseState';
+// import UseEffect from './components/Hooks/UseEffect';
+// import Restaurants from './components/basics/Restaurants';
+// import UseState from './components/Hooks/UseState';.
+import UseReducer from './components/Hooks/UseReducer';
 
 function App() {
   return (
    <>
-<MyName />
+{/* <MyName />
 <p>Welcome</p>
-<Restaurants />
+<Restaurants /> */}
+{/* <UseState/> */}
+{/* <UseEffect /> */}
+
+<UseReducer/>
    </>
   );
 }
