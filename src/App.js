@@ -2,7 +2,8 @@ import './App.css';
 // import UseEffect from './components/Hooks/UseEffect';
 // import Restaurants from './components/basics/Restaurants';
 // import UseState from './components/Hooks/UseState';.
-import UseReducer from './components/Hooks/UseReducer';
+// import UseReducer from './components/Hooks/UseReducer';
+import Todo from './components/todoreact/Todo';
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
 {/* <UseState/> */}
 {/* <UseEffect /> */}
 
-<UseReducer/>
+{/* <UseReducer/> */}
+
+<Todo/>
    </>
   );
 }
